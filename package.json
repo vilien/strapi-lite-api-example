@@ -1,0 +1,31 @@
+{
+  "name": "strapi-lite-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "toc": "node app",
+    "postinstall": "node scripts/postinstall"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.6.2",
+    "strapi-connector-mongoose": "3.6.2",
+    "strapi-utils": "3.6.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "df15c0df-ae64-4a33-9b88-78f60abd0d2a"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
